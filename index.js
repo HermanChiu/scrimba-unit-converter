@@ -6,9 +6,9 @@ let kgLb = document.getElementById("Kg/lb")
 
 let amountEL = document.getElementById("amount")
 
-amountEL.onchange = function() {
+amountEL.addEventListener("input", function() {
     convert()
-}
+})
 
 function convert() {
     amount = document.getElementById("amount").value
