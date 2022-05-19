@@ -1,12 +1,14 @@
 let amount = document.getElementById("amount").value;
-// let input =  document.getElementById("amount").value // not sure how to get input value
-// let amount =  document.querySelector('input').value // not sure how to get input value
 
 let mft = document.getElementById("m/ft")
 let lGL = document.getElementById("L/Gl")
 let kgLb = document.getElementById("Kg/lb")
 
-let count = 3
+let amountEL = document.getElementById("amount")
+
+amountEL.onchange = function() {
+    convert()
+}
 
 function convert() {
     amount = document.getElementById("amount").value

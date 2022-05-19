@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     color: whitesmoke;
     padding: 5% 0 0;
+    height: 40%;
 }
 
 #amount {
@@ -42,7 +43,7 @@ input::-webkit-inner-spin-button {
     flex-direction: column;
     background: #1F2937;
     color: whitesmoke;
-    height: 50%;
+    height: 60%;
 }
 
 .convert {
