@@ -46,16 +46,18 @@ input::-webkit-inner-spin-button {
 }
 
 .convert {
-    margin: 0px 35% 50px;
+    margin: 0px 40% 50px;
     background-color: rgba(0, 0, 0, 0);
     color: whitesmoke;
     border-color: rgba(0, 0, 0, 0.05);
     text-align: center;
     border-radius: 3px;
+    font-size: 1.5rem;
 }
 
 .convert:hover {
     background-color: rgba(0, 0, 0, 0.05);
+    border-color: rgba(211, 30, 142, 0.8);
 }
 
 .converted {
